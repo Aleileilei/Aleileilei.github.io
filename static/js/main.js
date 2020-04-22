@@ -115,7 +115,7 @@ $(function() {
     var avatars = window.settings.numberofavatars;    
   	for(var i=0; i<avatars; i++) 
   	{ 
-  		$('.avatars').append('<img id="avatar_' + i+ '" src="avatars/avatar_' + i + '.png" class="avatar" />');
+  		$('.avatars').append('<img id="avatar_' + i+ '" src="../../avatars/avatar_' + i + '.png" class="avatar" />');
   	} 
 
   	$('.avatar').on('click', function() {
