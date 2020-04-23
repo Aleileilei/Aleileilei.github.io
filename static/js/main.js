@@ -89,10 +89,10 @@ $(function() {
   			errormsg = 'Please enter text';
   			uname = "undefined";
   		}
-  		if(not_alphanumeric(uname)) {
-  			error = 1;
-  			errormsg = 'Please only letters (and no spaces)';
-  		}  		
+  		// if(not_alphanumeric(uname)) {
+  		// 	error = 1;
+  		// 	errormsg = 'Please only letters (and no spaces)';
+  		// }  		
 
   		if(error == 0) {
 			$('#name').hide();

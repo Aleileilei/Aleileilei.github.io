@@ -53,21 +53,13 @@ If you don't have experience with programming, it is important that you alter on
 You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
 
 */ 
---> <h3>欢迎蕾蕾小可爱来视察工作</h3>
+--> 
+下面我们将进入一个线上交友平台，通过随机配对，你将和其他人一起完成接下来的任务。<br><br>
+首先，你需要为自己选择一个能够代表自己的头像，并用一段话简单地介绍一下自己。<br><br>
+然后，你有3分钟的时间阅读其他人的介绍，如果你喜欢ta就可以为ta“点赞”。
 
-  You will complete a number of simple tasks, together with other people, <br>
-  with whom you will be connected via the internet. 
-  <br><br>
-  First, all participants in the study will select personal "avatars" and <br>
-  write short texts to introduce themselves.
-  <br><br>
-  Before beginning the tasks, you will spend 3 minutes with the other <br>
-  people. During this time, you will be able to read and react to <br>
-  each-other's brief introductions.
-  <br><br>
-  Specific instructions will follow.<br><br>
-  <b>Thank you!</b><br><br>
-  <button type="submit" id="submit_intro">Continue</button>
+ <br><br>
+  <button type="submit" id="submit_intro">继 续</button>
 </div>
 
 
@@ -82,16 +74,15 @@ You can edit the instructions text for entering usernames below.
 
 */ 
 -->
-	<h3>Please enter your name</h3>
-	Could be your first name, nickname, or initials<br><br>
-	
-	<input type="text" id="username"  autocomplete="off" /><br>	<br>
-	<button type="submit"  id="submit_username">Submit</button>
+  <h3>请为自己起个昵称</h3>
+  
+  <input type="text" id="username"  autocomplete="off" /><br> <br>
+  <button type="submit"  id="submit_username">提 交</button>
 </div>
 
 
 
-<div id="avatar" style="display:none;">	
+<div id="avatar" style="display:none;"> 
 <!-- 
 /* 
   
@@ -100,16 +91,15 @@ You can edit the instructions text for entering usernames below.
 You can edit the instructions text. The text "Your choice of avatar will not be recorded or analyzed" depends on whether you record the choice of avatar.
 
 */ 
--->	<h3>Please select an avatar</h3>
-	This avatar will represent you during the group task, but will not be linked to any of your responses. <br>Your choice of avatar will not be recorded or analyzed.
-	<br><br>
-	<div class="avatars"></div>
-	<br><button type="submit"  id="submit_avatar">Submit</button>
-	<br><br>
-</div>	
+--> <h3>请为自己选择一个头像</h3>
+
+  <div class="avatars"></div>
+  <br><button type="submit"  id="submit_avatar">提 交</button>
+  <br><br>
+</div>  
 
 
-<div id="text" style="display:none;" class="instr">	
+<div id="text" style="display:none;" class="instr"> 
 <!-- 
 /* 
   
@@ -118,18 +108,16 @@ You can edit the instructions text. The text "Your choice of avatar will not be 
 You can edit the instructions text. 
 
 */ 
--->	<h3>Please introduce yourself </h3>
-	Please write a paragraph in which you introduce yourself to the rest of the group. <br>
-	Write something you would like to tell about yourself - anything you want to share.
-	<br><br>	
-	<textarea id="description" autocomplete="off" /></textarea><br>
-	<span id="count">Characters left: 400</span><br><br>
-	<button type="submit" id="submit_text">Submit</button>
-</div>	
+--> <h3>请用一段话简单地介绍自己，让小组中的其他人更好地了解你 </h3>
+
+  <textarea id="description" autocomplete="off" /></textarea><br>
+  <span id="count">Characters left: 400</span><br><br>
+  <button type="submit" id="submit_text">提 交</button>
+</div>  
 
 
 
-<div id="fb_intro" style="display:none;" class="instr">
+<div id="fb_intro" style="display:none;font-size:16px;line-height:32px;" class="instr">
 <!-- 
 /* 
   
@@ -138,32 +126,26 @@ You can edit the instructions text.
 You can edit the instructions text. The prompt to try and form an impression of the other players is recommended in all ostacism paradigms. Defining the action of "liking" is also recommended. The information regarding task duration can be adjusted to match the actual duration you have set.
 
 */ 
--->  <h3>Group Introduction</h3>
-  Soon after connecting, you should be able to see the other people's descriptions. <br>
-  You can read and react to the short introduction they wrote about themselves, by <br>
-  clicking a "like" button, similar to the "like" button on Facebook ("favorite" on Twitter,<br> 
-  &hearts; in Tumblr and Instagram, etc.) <br>
-  <br>
-  Even though your interaction is minimal, please try to form an impression of the <br>
-  people in the group. Try to imagine them in real life - how they might look <br>
-  or sound, what kind of people they are, how you would get along with them.
-  <br><br>The task will last 3 minutes and is very important to the study, so please be attentive,
-  <br>without switching pages, or doing unrelated tasks. Questions about the other people <br>might follow.
-  <br><br><b>If these instructions are clear, you can proceed to log in.</b><br>
-  <br>
-  <button type="submit"  id="submit_fb_intro">Log in</button>
+-->
+    接下来，我们会通过线上连接的方式呈现其他人的自我介绍，并可以点击右下角的“赞”给予ta们反馈（类似于朋友圈中的“赞”）。<br><br>
+虽然你可能从未与小组内的其他人有过接触，但请尽可能将ta们想象成你现实生活中真实存在的人。<br><br>
+这个过程将持续3分钟，不能提前结束，但是这一过程对我们的研究非常重要，请您认真专注地阅读其他人的介绍，
+    不要离开页面或做其他无关的事情。之后的问题也会涉及到与其他人有关的信息。<br><br>
+如果你已经清楚上列要求，请点击“登录”。<br><br>
+
+  <button type="submit"  id="submit_fb_intro">登 录</button>
 </div>
 
 
 
 <div id="fb_login" style="display:none;" class="instr">
-  <h3>Establishing connection</h3>
-  Please wait while you are being connected to the other participants in your group.<br><br>
-  <img class="load" src='ajax-loader.gif' id="loader">
+  <h3>连接中……</h3>
+  正在与小组内其他人连接中，请等待。<br><br>
+  <img class="load" src='static/ajax-loader.gif' id="loader">
   <div id="msg_all_done" style="display:none;">
   <br>
-  	<b>All participants are now connected and you are ready to proceed.</b><br><br>
-  	<button type="submit"  id="submit_fb_login">Continue</button>
+    <b>所有组员已连接，请“继续”。</b><br><br>
+    <button type="submit"  id="submit_fb_login">继 续</button>
   </div>
 </div>
 
