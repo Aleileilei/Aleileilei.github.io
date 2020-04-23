@@ -86,7 +86,7 @@ $(function() {
 
   		if(uname == "") {
   			error = 1;
-  			errormsg = 'Please enter text';
+  			errormsg = '请输入昵称';
   			uname = "undefined";
   		}
   		// if(not_alphanumeric(uname)) {
@@ -130,7 +130,7 @@ $(function() {
   			window.avatarexport = /avatar_([^\s]+)/.exec(window.avatar)[1];
     			init_text();  			
     		} else {
-    			alertify.log("Please select an avatar","error");
+    			alertify.log("请选择一个头像","error");
     		}
     	});
 
@@ -142,7 +142,7 @@ $(function() {
   	$('#text').show();
 
   	$("#description").keyup(function(){
-  	  $("#count").text("Characters left: " + (400 - $(this).val().length));
+  	  $("#count").text("剩余字数: " + (300 - $(this).val().length));
   	});
 
   	$('#submit_text').on('click',function() {
@@ -150,17 +150,17 @@ $(function() {
   		var error = 0;
   		if($('#description').val() == "") {
   			error = 1;
-  			errormsg = 'Please enter text';
+  			errormsg = '请写点东西吧';
   		}
-  		if($('#description').val() !== "" && $('#description').val().length < 140) {
+  		if($('#description').val() !== "" && $('#description').val().length < 80) {
 		
   			error = 1;
-  			errormsg = 'Please write a bit more';
+  			errormsg = '请再写一点吧';
 			}
-  		if($('#description').val().length > 401) {
+  		if($('#description').val().length > 301) {
   		
   			error = 1;
-  			errormsg = 'Please enter less text';
+  			errormsg = '请少写一点';
   		}  		
   		if(error == 0) {
   			$('#text').hide();
@@ -265,7 +265,7 @@ $(function() {
   		{ 
   			times[i] = +times[i]; 
   			
-  			themsg = usernames[i] + " liked your post";
+  			themsg = usernames[i] + "为你点赞";
 
   			setTimeout(function(themsg) {
   				that.text(parseInt(that.text()) + 1);
