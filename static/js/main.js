@@ -52,7 +52,8 @@ $(function() {
 	
     // Usernames by which the participant will receive "likes"
 	// If group member names are changed, these should be changed accordingly.
-    settings.likes_by = ['John','AncaD','Sarah','Arjen','Jane','George','Dan','Heather','Ky']; 
+    settings.likes_by = ['英俊','李安然','Anny','陈杨超','JJJ','Geo','Dan','何一','Ky']; 
+    // settings.likes_by = ['John','AncaD','Sarah','Arjen','Jane','George','Dan','Heather','Ky']; 
   }
   
   // -------------------
@@ -326,7 +327,6 @@ $(function() {
     },window.settings.tasklength); // timing for task
 
   }
-	
 
   // Get URL parameters to set condition number and participant number
   function get_params() {

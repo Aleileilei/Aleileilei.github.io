@@ -1,74 +1,150 @@
 // **Group members profiles**   
 // Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
-	
+  
 window.others = {
   "posts" : [
       {
         "avatar": "avatars/others/george.png",
-        "username": "Georgeee",
-        "text": "I'm a 19 year old dude from Wisconsin (commence making fun of my accent). I love music and lately you can catch me listening to nothing but Joy Division, Echo & the bunnymen, and the smiths. Besides music I like learning languages, psychology, drawing, and writing.",
+        "username": "Geo",
+        "text": "我今年19岁，来自中国人民大学。我热爱音乐，尤其喜欢听摇滚乐。除了音乐，我还喜欢学习各种语言、心理学、绘画和写作。",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
         "avatar": "avatars/others/sarah.png",
-        "username": "Sarah",
-        "text": "Let me introduce myself. I’m Sarah, married, and mother of two wonderful (grown up) children. My career has been a bit peculiar. Starting off as a graduate historian, I switched to an entirely different discipline: occupational assessor trying to help young people with disabilities to get a job. I’ve just retired and started spending more time on my hobbies, such as singing, reading, and playing volleyball.",
+        "username": "Anny",
+        "text": "我是北京大学研二学生，主修金融管理专业，本科毕业于上海财经大学经济学专业，辅修经济学数学。先后在中信证券、腾讯集团、中金公司从事二级权益投资、互联网商业分析、一级半市场投资研究，业余时间热爱外语学习、旅行摄影。",
         "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
       },
       {
         "avatar": "avatars/others/john.png",
-        "username": "John",
-        "text": "Hi there, I’m 57 years old, married, with two kids. I’ve been a computer programmer in the states for about 30 years, but don’t worry: I don’t have the dusty haircut, oversized buttoned shirt and nerdie big frame glasses. Looking forward to working with you all. Cheers, John",
-		"likes": [20000, 21000] //2
+        "username": "英俊",
+        "text": "我喜欢运动，在家里总是和父母在门口打篮球，当写作业眼睛累了就到处走走，或者跳跳绳，我还喜欢和朋友一起出去爬山、旅游。我喜欢交朋友，也喜欢自己安静地看看书、听听歌。",
+    "likes": [20000, 21000] //2
       },
       {
         "avatar": "avatars/others/anca.png",
-        "username": "AncaD",
-        "text": "I am a Computer Science student, interested in Natural Language processing. Also a lover of loose leaf tea and a Semantic Web enthusiast. I’m curious about what this task is about.",
+        "username": "李安然",
+        "text": "我是一名计算机专业大二的学生，目前对自然语言处理比较感兴趣，平时还喜欢研究茶文化。我很好奇接下来会让我们做什么。",
         "likes": [10000, 12000, 40000, 80000, 120000] //5
       },
       {
         "avatar": "avatars/others/niki.png",
         "username": "Nick",
-        "text": "My life revolves around rock climbing. I started climbing when I was 12 (turning 18 soon) and usually climb 4-5 hours a day. Climbing never bores me, because each time is different – the routes, the weather, my strength and endurance. It’s great!",
+        "text": "我是一名体育生，从12岁起开始学习攀岩，现在马上就19岁了，通常我一天要攀岩四五个小时。不过无论攀岩多久我都不会觉得无聊，因为每次攀岩的路线、天气都不一样，我很喜欢这种挑战和刺激的感觉。",
         "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
       },
     {
         "avatar": "avatars/others/mary.png",
-        "username": "Mary",
-        "text": "My name is Mary and I am 49 years old. I have a husband and 2 grown sons. My family and I lived in different countries. Our sons attended international schools wherever we went and since moving to China, I found work at those schools as well. Besides roaming around the world, I like playing games. Board games, cards, black jack or poker, mah jong, or silly games on Facebook, jig saws, basically anything",
+        "username": "麻小",
+        "text": "本人外表平平，在此就不细说了，大街上随便抓个人都会和我有相似之处。性格还好，中庸是我的梦想，但迫于社会现实所逼，经常做出一些左倾和右倾的事情，于是乎导致我此刻没有多大成就，除了找到几个要好的朋友，我感觉自己还是相当孤独的。",
         "likes": [20000, 25000, 95000] //3
       },
       {
         "avatar": "avatars/others/lauren.png",
-        "username": "Lauren",
-        "text": "I’m Lauren, I love to hang out with friends and go shopping. Just doing some online studies here!",
+        "username": "哈哈",
+        "text": "我平时喜欢和朋友们一起出去玩、逛街、看电影，我不喜欢攒钱，我的信念就是及时行乐，毕竟人生在世，谁也不知道以后会发生什么。",
         "likes": [12000, 38000] //1
       },
           {
         "avatar": "avatars/others/kim.png",
         "username": "Ky",
-        "text": "Hey, guys. I'm 19, native Korean. I've been in America for about four years now.I consider myself pretty nice, though not a total angel. I just like being friendly to people I meet. In my spare time, I like making all kinds of friends, having conversations about whatever, looking at paintings, using makeup, reading, singing (show choir representtt!), making jewelry, and eating delicious food. Enjoy your day, stay out of trouble. <3",
+        "text": "大家好，我今年19岁，来自韩国，到中国学习已经4年了。我自己觉得自己还是很好相处的，我会友好地对待我周围的每个人。空余时间里，我喜欢结识各种各样的人，和他们一起聊天，我还喜欢看书、唱歌和烹饪，享受自己人生的每一天。",
         "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
       },
       {
         "avatar": "avatars/others/arjen.png",
-        "username": "Arjen",
-        "text": "My name's Arjen, I study Artificial Intelligence. Also I like to use my free time to make all kinds of different things... I'm kind of a nerd too, I guess.",
+        "username": "陈杨超",
+        "text": "我的名字叫陈杨超，我的专业是人工智能，虽然平时我也有一些兴趣爱好，但是我觉得自己应该算是个宅男。",
         "likes": [12000, 40000, 120000] //3
       },
       {
         "avatar": "avatars/others/heather.png",
-        "username": "Heather",
-        "text": "Just now I'm finishing up my first year of a difficult science curriculum in university. I also work at a cosmetics counter as a part-time thing and earn some money online in my free time. I have a lot planned for my future, and it's really exciting. I want to grow up and be a doctor with a family of lots of little dogs. It'll be fantastic.",
+        "username": "何一",
+        "text": "我是一名大一的新生，我平时有空的话会做一些线上的兼职来赚点外快。我喜欢畅想未来，而且我为自己制定了很多关于未来的计划。我喜欢自己未来可以成为一名宠物医生，收养很多流浪的狗狗。",
         "likes": [13000, 50000, 80000, 88000, 120000] //5
       },
       {
         "avatar": "avatars/others/jane.png",
-        "username": "Jane",
-        "text": "Dear all, my name is Jane and I will soon have an important interview. This is all I can think about these days. I hope you're doing well",
+        "username": "JJJ",
+        "text": "大家好，我现在正在准备一个重要的面试，希望我能够顺利通过，也祝愿你们能心想事成。",
         "likes": [10000, 50000] //6
       },
 
     ]
   };
+  
+
+// // **Group members profiles**   
+// // Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
+	
+// window.others = {
+//   "posts" : [
+//       {
+//         "avatar": "avatars/others/george.png",
+//         "username": "Georgeee",
+//         "text": "I'm a 19 year old dude from Wisconsin (commence making fun of my accent). I love music and lately you can catch me listening to nothing but Joy Division, Echo & the bunnymen, and the smiths. Besides music I like learning languages, psychology, drawing, and writing.",
+//         "likes": [45000, 50000, 110000, 150000] //4
+//       },
+//       {
+//         "avatar": "avatars/others/sarah.png",
+//         "username": "Sarah",
+//         "text": "Let me introduce myself. I’m Sarah, married, and mother of two wonderful (grown up) children. My career has been a bit peculiar. Starting off as a graduate historian, I switched to an entirely different discipline: occupational assessor trying to help young people with disabilities to get a job. I’ve just retired and started spending more time on my hobbies, such as singing, reading, and playing volleyball.",
+//         "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
+//       },
+//       {
+//         "avatar": "avatars/others/john.png",
+//         "username": "John",
+//         "text": "Hi there, I’m 57 years old, married, with two kids. I’ve been a computer programmer in the states for about 30 years, but don’t worry: I don’t have the dusty haircut, oversized buttoned shirt and nerdie big frame glasses. Looking forward to working with you all. Cheers, John",
+// 		"likes": [20000, 21000] //2
+//       },
+//       {
+//         "avatar": "avatars/others/anca.png",
+//         "username": "AncaD",
+//         "text": "I am a Computer Science student, interested in Natural Language processing. Also a lover of loose leaf tea and a Semantic Web enthusiast. I’m curious about what this task is about.",
+//         "likes": [10000, 12000, 40000, 80000, 120000] //5
+//       },
+//       {
+//         "avatar": "avatars/others/niki.png",
+//         "username": "Nick",
+//         "text": "My life revolves around rock climbing. I started climbing when I was 12 (turning 18 soon) and usually climb 4-5 hours a day. Climbing never bores me, because each time is different – the routes, the weather, my strength and endurance. It’s great!",
+//         "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
+//       },
+//     {
+//         "avatar": "avatars/others/mary.png",
+//         "username": "Mary",
+//         "text": "My name is Mary and I am 49 years old. I have a husband and 2 grown sons. My family and I lived in different countries. Our sons attended international schools wherever we went and since moving to China, I found work at those schools as well. Besides roaming around the world, I like playing games. Board games, cards, black jack or poker, mah jong, or silly games on Facebook, jig saws, basically anything",
+//         "likes": [20000, 25000, 95000] //3
+//       },
+//       {
+//         "avatar": "avatars/others/lauren.png",
+//         "username": "Lauren",
+//         "text": "I’m Lauren, I love to hang out with friends and go shopping. Just doing some online studies here!",
+//         "likes": [12000, 38000] //1
+//       },
+//           {
+//         "avatar": "avatars/others/kim.png",
+//         "username": "Ky",
+//         "text": "Hey, guys. I'm 19, native Korean. I've been in America for about four years now.I consider myself pretty nice, though not a total angel. I just like being friendly to people I meet. In my spare time, I like making all kinds of friends, having conversations about whatever, looking at paintings, using makeup, reading, singing (show choir representtt!), making jewelry, and eating delicious food. Enjoy your day, stay out of trouble. <3",
+//         "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
+//       },
+//       {
+//         "avatar": "avatars/others/arjen.png",
+//         "username": "Arjen",
+//         "text": "My name's Arjen, I study Artificial Intelligence. Also I like to use my free time to make all kinds of different things... I'm kind of a nerd too, I guess.",
+//         "likes": [12000, 40000, 120000] //3
+//       },
+//       {
+//         "avatar": "avatars/others/heather.png",
+//         "username": "Heather",
+//         "text": "Just now I'm finishing up my first year of a difficult science curriculum in university. I also work at a cosmetics counter as a part-time thing and earn some money online in my free time. I have a lot planned for my future, and it's really exciting. I want to grow up and be a doctor with a family of lots of little dogs. It'll be fantastic.",
+//         "likes": [13000, 50000, 80000, 88000, 120000] //5
+//       },
+//       {
+//         "avatar": "avatars/others/jane.png",
+//         "username": "Jane",
+//         "text": "Dear all, my name is Jane and I will soon have an important interview. This is all I can think about these days. I hope you're doing well",
+//         "likes": [10000, 50000] //6
+//       },
+
+//     ]
+//   };
