@@ -41,7 +41,7 @@ window.others = {
       },
       {
         "avatar": "avatars/others/lauren.png",
-        "username": "哈哈",
+        "username": "haha",
         "text": "我平时喜欢和朋友们一起出去玩、逛街、看电影，我不喜欢攒钱，我的信念就是及时行乐，毕竟人生在世，谁也不知道以后会发生什么。",
         "likes": [12000, 38000] //1
       },
@@ -72,7 +72,7 @@ window.others = {
 
     ]
   };
-  
+
 
 // // **Group members profiles**   
 // // Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
