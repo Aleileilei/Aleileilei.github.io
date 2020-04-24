@@ -215,6 +215,7 @@ $(function() {
   		startNumber: window.settings.tasklength/1000, // in seconds
   		callBack: function(me) {
   			console.log('over');
+        alert("请关闭页面，继续完成问卷内容");
         $('#timer').text('00:00');
   		}
   	});
@@ -233,11 +234,11 @@ $(function() {
 		
     // Add user box to slide     
 	  var tpl = $('#usertmp').html(),html = Mustache.to_html(tpl, users);
-	  $("#task").append(html);
+	  $("#task_1").append(html);
 	  
     // Add other boxes to slide    
 	  var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
-	  $("#task").append(html);
+	  $("#task_1").append(html);
  
     // Randomize order of other players boxes
     function reorder() {
@@ -302,29 +303,29 @@ $(function() {
 
     // Initalize Masonry plugin
     // For display of user and other players boxes in columns without gaps
-		$('#task').masonry({
+		$('#task_1').masonry({
 		  itemSelector : '.entry',
 		  columnWidth : 10
 		});
 
 
     // Redirect, default after 180000ms = 180s = 3min
-    setTimeout(function() {
+    // setTimeout(function() {
     
-    $(window).unbind('beforeunload');
+    // $(window).unbind('beforeunload');
     
-    $('#final-continue').show();
+    // $('#final-continue').show();
 
-    $('#timer').text('00:00');
+    // $('#timer').text('00:00');
     
-    $('#final-continue').on('click', function() {
+    // $('#final-continue').on('click', function() {
 
-      // Redirect link
-      location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
+    //   // Redirect link
+    //   location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
 
-    });
+    // });
     
-    },window.settings.tasklength); // timing for task
+    // },window.settings.tasklength); // timing for task
 
   }
 
